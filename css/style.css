@@ -1,0 +1,123 @@
+/* Default Style Section */
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    border: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{ 
+    list-style-type: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Main Css Start */
+.wrapper-full{
+    width: 100%;
+}
+.wrapper{
+    width: 85%;
+    margin:0 auto;
+}
+
+/* Header CSS Start  */
+.header-full{
+    background-color: green;
+}
+.header{
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    font-size: 17px;
+}
+.header p{
+    float: left;
+}
+.header p i{
+    margin:0px 4px;
+}
+.header ul{
+    overflow: hidden;
+    float: right;
+}
+.header ul li{
+    float: left;
+    margin: 0px 4px;
+}
+.header ul li a{
+    color: white;
+}
+.header ul li a:hover{
+    color: #ff0000;
+}
+
+/* Navigation Bar CSS start */
+.navbar-full{
+    background-color: #b8b8c9;
+}
+.navbar{
+    height: 84px;
+    line-height: 84px;
+    color: #ffffff;
+}
+.navbar ul{
+    float: right;
+    overflow: hidden;
+}
+.navbar ul li{
+    float: left;
+    margin: 0px 2px;
+}
+.navbar ul li a{
+    color: white;
+    font-size: 20px;
+    padding: 31px 10px;
+}
+.navbar ul li a:hover{
+    background-color: green;
+}
+
+/* Banner CSS Start */
+.banner-full{
+    background-image: url("http://robin.adovasoft.com/My_portfolio/public/img/elements/g2.jpeg");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner{
+    color: #ffffff;
+}
+
+/* Content CSS Start */
+.content-full{
+    background-color: white;
+    border: solid greenyellow;
+    
+}
+.content{
+    padding: 33px;
+}
+.content h2{
+    text-decoration: underline;
+}
+.content p{
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+/* Footer Css Start */
+.footer-full{
+    background-color: #221f47;
+}
+.footer{
+    height: 84px;
+    line-height: 84px;
+    color: #ffffff;
+}
