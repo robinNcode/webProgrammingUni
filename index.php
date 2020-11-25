@@ -87,9 +87,39 @@
     <!-- Content Section Start -->
     <div  class="wrapper-full content-full">
         <div class="wrapper content">
-            <h2>Dummy Content</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+            <h2># A c program to find out a year is leap year or not.</h2>
+            <hr>
+            <code>
+                <?php echo "<pre>"; ?>
+                #include<stdio.h>
+                    int main() {
+                       int year;
+                       printf("Enter a year: ");
+                       scanf("%d", &year);
+                    
+                       // leap year if perfectly visible by 400
+                       if (year % 400 == 0) {
+                          printf("%d is a leap year.", year);
+                       }
+                       // not a leap year if visible by 100
+                       // but not divisible by 400
+                       else if (year % 100 == 0) {
+                          printf("%d is not a leap year.", year);
+                       }
+                       // leap year if not divisible by 100
+                       // but divisible by 4
+                       else if (year % 4 == 0) {
+                          printf("%d is a leap year.", year);
+                       }
+                       // all other years are not leap year
+                       else {
+                          printf("%d is not a leap year.", year);
+                       }
+                    
+                       return 0;
+                    }
+                <?php echo "</pre>"; ?>
+            </code>
         </div>
     </div>
     <!-- Content Section End -->

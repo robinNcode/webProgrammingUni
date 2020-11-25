@@ -104,9 +104,6 @@ body{
 .content{
     padding: 33px;
 }
-.content h2{
-    text-decoration: underline;
-}
 .content p{
     margin-top: 10px;
     text-transform: capitalize;
